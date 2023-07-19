@@ -1,6 +1,3 @@
-
-/// CODE BY KAUVERY SINGH ///
-
 // to establish a webSocket connection between the client-side and server-side
 const socket = io('http://localhost:8000');
 
@@ -60,6 +57,3 @@ form.addEventListener('submit', (e) => {
     socket.emit('send', message);
     messageInput.value = ''
 })
-
-
-/// CODE BY KAUVERY SINGH ///
